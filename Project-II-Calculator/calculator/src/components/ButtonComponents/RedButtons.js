@@ -1,14 +1,16 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = (props) => {
+const RedButtons = (props) => {
     return (
 
         <button className={props.buttonStyle}>{props.text}</button>
+
+
     )
 }
-ActionButton.defaultProps = {
-    buttonStyle: 'actionButton'
+RedButtons.defaultProps = {
+    buttonStyle: 'redButtons'
 }
 
-export default ActionButton
+export default RedButtons
